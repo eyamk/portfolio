@@ -1,0 +1,104 @@
+body {
+    background-image: url("bg.gif");
+    max-width: 100%
+ }
+ span{
+     color:rgb(202, 40, 67);
+ }
+ .titre{
+     display: flex;
+     justify-items: center;
+     justify-content: center;
+     color:wheat;
+     padding:200px;
+     font-family: cursive;
+ }
+ .boutton{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     
+ }
+ .btn{
+     width: 25%;
+ }
+ nav{
+     background-color: black;
+ }
+ .second-part{
+     display: flex;
+     justify-content: center;
+     color:#222;
+     font-family:cursive;
+ }
+ h2{
+    font-family:cursive;  
+ }
+ main{
+    background-color:rgba(245, 245, 245, 0.822);
+ }
+ /*footer{
+    
+    
+    text-align: center;
+    padding: 70px;
+    max-width: 50%;
+ }*/
+ .form-group{
+    
+     width:30%;
+ }
+ .img1{
+     width:10%;
+ }
+ 
+.logiciel{
+    text-align: center;
+    padding:70px;
+    color:darkslategray;
+}
+.formation{
+    
+    padding:70px;
+    color:darkslategray;
+}
+.tps{
+    display: flex;
+    justify-content: space-around;
+}
+ .picture{
+     display: flex;
+     justify-content:space-around;
+     padding:70px;
+ }
+
+/*.form-group{
+    margin:0px 400px;*/
+}
+.last-part{
+    display: flex;
+     justify-content: center;
+     color:rgb(189, 154, 154);
+     font-family:cursive;
+}
+.question{
+    color:grey;
+}
+hr{
+    border:1px solid grey;
+}
+.input{
+    color:white;
+}
+.button-profile{
+    position: relative;
+    bottom: 117px;
+}
+@media only screen and (max-width: 600px) {
+    .card-body {
+    
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+ 
